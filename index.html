@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Girls - Página Inicial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/menu-vertical.css">
+    <!---<link rel="stylesheet" href="css/menu-horizontal.css">-->
+</head>
+<body>
+
+   <nav class="menu-nav">
+        <div class="logo">Dev<span>Girls</span></div>
+        <button class="menu-toggle" onclick="this.parentElement.classList.toggle('aberto')">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="ativo"><i class="fas fa-home"></i> Página Inicial</a></li>
+            <li class="dropdown">
+                <a href="#"><i class="fas fa-user"></i> Sobre Nós ▼</a>
+                <ul class="submenu">
+                    <li><a href="sobre-kelly.html">Kelly (CEO)</a></li>
+                    <li><a href="sobre-giovanna.html">Giovanna (Gerente)</a></li>
+                    <li><a href="sobre-alana.html">Alana (Full Stack)</a></li>
+                    <li><a href="sobre-monique.html">Monique (Back End)</a></li>
+                </ul>
+            </li>
+            <li><a href="portfolio.html"><i class="fas fa-code"></i> Portfólio</a></li>
+            <li><a href="novidades.html"><i class="fas fa-newspaper"></i> Novidades</a></li>
+            <li><a href="contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Dev<span style="color: #ffd700;">Girls</span></h1>
+            <p class="descricao">Quatro desenvolvedoras unidas pela paixão de transformar ideias em código e criar soluções incríveis para o mundo digital.</p>
+            <div class="hero-tags">
+                <span class="hero-tag"><i class="fas fa-code"></i> Desenvolvimento Web</span>
+                <span class="hero-tag"><i class="fas fa-mobile-alt"></i> Apps Responsivos</span>
+                <span class="hero-tag"><i class="fas fa-database"></i> Front-End & Back-End</span>
+                <span class="hero-tag"><i class="fas fa-paint-brush"></i> UI/UX Design</span>
+            </div>
+        </section>
+
+        <div class="container">
+            <h2 class="section-title">Conheça nossas <span>Desenvolvedoras</span></h2>
+
+            <div class="cards-grid">
+                <div class="card-integrante">
+                    <div class="avatar"><img src="imagens/kelly.jpg" alt="Foto da Kelly"></div>
+                    <h3>Kelly</h3>
+                    <div class="cargo">CEO & Fundadora</div>
+                    <div class="descricao">Líder do time, estratégista digital e apaixonada por inovação.</div>
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/kelly-lima-3956853b8" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/kellylima11" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="card-integrante">
+                    <div class="avatar"><img src="imagens/giovanna.jpg" alt="Foto da Giovanna"></div>
+                    <h3>Giovanna</h3>
+                    <div class="cargo">Gerente de Projetos</div>
+                    <div class="descricao">Organização, metodologias ágeis e entregas impecáveis.</div>
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/giovanna-victoria-3a43321b0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/giozinha-gameplayon" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="card-integrante">
+                    <div class="avatar"><img src="imagens/monique.jpg" alt="Foto da Monique"></div>
+                    <h3>Monique</h3>
+                    <div class="cargo">Back End Developer</div>
+                    <div class="descricao">Especialista em servidores, APIs e arquitetura de sistemas.</div>
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/monique-queiroz-b91b4a244" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/niquezinha20" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="card-integrante">
+                    <div class="avatar"><img src="imagens/alana.jpg" alt="Foto da Alana"></div>
+                    <h3>Alana</h3>
+                    <div class="cargo">Full Stack Developer</div>
+                    <div class="descricao">Front-end, Back-end, Cloud - resolve tudo!</div>
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/alana-anjos-aga222" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/alananjos06" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="stats-section">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <div class="numero">+70</div>
+                            <div class="label">Projetos Entregues</div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <div class="numero">+80</div>
+                            <div class="label">Clientes Satisfeitos</div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-award"></i>
+                            <div class="numero">4</div>
+                            <div class="label">Desenvolvedoras</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <h2 class="section-title">O que <span>oferecemos?</span></h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites institucionais, lojas virtuais e sistemas personalizados.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Apps Responsivos</h3>
+                    <p>Aplicações que funcionam em qualquer dispositivo.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Soluções em Nuvem</h3>
+                    <p>Arquitetura escalável e deploy em cloud services.</p>
+                </div>
+            </div>
+
+            <div class="cta-section">
+    <h2>Vamos trabalhar <span>juntas</span>?</h2>
+    <p>Sua ideia pode ser o próximo grande projeto das Dev Girls!</p>
+    <a href="contato.html" class="btn-contato"><i class="fas fa-paper-plane"></i> Entre em contato!</a></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Dev Girls • Todos os direitos estão reservados.</p>
+            <p style="margin-top: 5px; font-size: 0.8rem;">Desenvolvido com <i class="fas fa-heart" style="color: #ff6b6b;"></i> por quem ama código.</p>
+        </div>
+    </footer>
+
+    <script>
+       document.querySelector('.dropdown > a').addEventListener('click', function(e) { 
+        e.preventDefault(); this.parentElement.classList.toggle('aberto'); });
+    </script>
+</body>
+</html>

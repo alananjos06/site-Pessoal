@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monique - Back End Developer | Dev Girls</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/menu-vertical.css">
+    <!---<link rel="stylesheet" href="css/menu-horizontal.css">-->
+</head>
+<body>
+
+    <nav class="menu-nav">
+        <div class="logo">Dev<span>Girls</span></div>
+        <button class="menu-toggle" onclick="this.parentElement.classList.toggle('aberto')">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="ativo"><i class="fas fa-home"></i> Página Inicial</a></li>
+            <li class="dropdown">
+                <a href="#"><i class="fas fa-user"></i> Sobre Nós ▼</a>
+                <ul class="submenu">
+                    <li><a href="sobre-kelly.html">Kelly (CEO)</a></li>
+                    <li><a href="sobre-giovanna.html">Giovanna (Gerente)</a></li>
+                    <li><a href="sobre-alana.html">Alana (Full Stack)</a></li>
+                    <li><a href="sobre-monique.html">Monique (Back End)</a></li>
+                </ul>
+            </li>
+            <li><a href="portfolio.html"><i class="fas fa-code"></i> Portfólio</a></li>
+            <li><a href="novidades.html"><i class="fas fa-newspaper"></i> Novidades</a></li>
+            <li><a href="contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Monique <span style="color: #ffd700;">| Back End Developer</span></h1>
+            <p class="nomes">Construindo a lógica por trás das aplicações</p>
+            <p class="descricao">Especialista em servidores, APIs, bancos de dados e arquitetura de sistemas.</p>
+            <div class="hero-tags">
+                <span class="hero-tag"><i class="fas fa-database"></i> Node.js</span>
+                <span class="hero-tag"><i class="fas fa-code"></i> APIs REST</span>
+                <span class="hero-tag"><i class="fas fa-server"></i> SQL/MySQL</span>
+                <span class="hero-tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+            </div>
+        </section>
+
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 40px; margin: 50px 0;">
+
+                <!-- Coluna esquerda -->
+                <div style="background: white; border-radius: 20px; padding: 35px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+                    <div class="avatar" style="width: 180px; height: 180px; margin: 0 auto 20px;">
+                        <img src="imagens/monique.jpg" alt="Foto da Monique">
+                    </div>
+                    <h2 style="color: #333; font-size: 1.8rem;">Monique Souza</h2>
+                    <p style="color: #667eea; font-weight: 600; margin-bottom: 20px;">Back End Developer</p>
+                    <div style="text-align: left; margin-top: 20px;">
+                        <p style="margin: 12px 0; color: #444;"><i class="fas fa-envelope" style="color: #667eea; width: 30px;"></i> monique@devgirls.com</p>
+                        <p style="margin: 12px 0; color: #444;"><i class="fas fa-phone" style="color: #667eea; width: 30px;"></i> (21) 9696-0303</p>
+                        <p style="margin: 12px 0; color: #444;"><i class="fas fa-map-marker-alt" style="color: #667eea; width: 30px;"></i> Rio de Janeiro, RJ</p>
+                        <p style="margin: 12px 0;"><i class="fab fa-linkedin" style="color: #667eea; width: 30px;"></i> <a href="https://www.linkedin.com/in/monique-queiroz-b91b4a244" target="_blank">LinkedIn</a></p>
+                        <p style="margin: 12px 0;"><i class="fab fa-github" style="color: #667eea; width: 30px;"></i> <a href="https://github.com/niquezinha20" target="_blank">GitHub</a></p>
+                    </div>
+                </div>
+
+                <!-- Coluna direita -->
+                <div>
+                    <div style="background: white; border-radius: 20px; padding: 35px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+                        <h2 style="color: #333; margin-bottom: 20px; font-size: 1.5rem;"><i class="fas fa-user-circle" style="color: #667eea; margin-right: 10px;"></i> Sobre Mim</h2>
+                        <p style="color: #444; line-height: 1.8; margin-bottom: 15px;">Meu nome é Monique Souza, sou formada em Sistemas de Informação e atuo como programadora back-end. Tenho grande interesse pela área de desenvolvimento, principalmente pela construção da lógica por trás das aplicações, garantindo que tudo funcione de forma eficiente, segura e bem estruturada.</p>
+                        <p style="color: #444; line-height: 1.8;">Possuo experiência no desenvolvimento de APIs, integração de sistemas e manipulação de bancos de dados, sempre buscando organizar o código de forma limpa e escalável.</p>
+                    </div>
+
+                    <div style="background: white; border-radius: 20px; padding: 35px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+                        <h2 style="color: #333; margin-bottom: 20px; font-size: 1.5rem;"><i class="fas fa-code" style="color: #667eea; margin-right: 10px;"></i> Habilidades Técnicas</h2>
+                        <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Node.js</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Express</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">JavaScript</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">SQL/MySQL</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">APIs REST</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Git & GitHub</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">JWT</span>
+                        </div>
+                    </div>
+
+                    <div style="background: white; border-radius: 20px; padding: 35px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+                        <h2 style="color: #333; margin-bottom: 20px; font-size: 1.5rem;"><i class="fas fa-graduation-cap" style="color: #667eea; margin-right: 10px;"></i> Formação</h2>
+                        <div style="margin-bottom: 20px;">
+                            <h3 style="color: #333;">Bacharelado em Sistemas de Informação</h3>
+                            <p style="color: #667eea;">Universidade Veiga de Almeida (UVA) | 2019 - 2023</p>
+                            <p style="color: #555; margin-top: 5px;">Formação voltada para desenvolvimento de software, banco de dados e engenharia de sistemas.</p>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <h3 style="color: #333;">MBA em Desenvolvimento Full Stack</h3>
+                            <p style="color: #667eea;">UVA | 2023 - 2024</p>
+                            <p style="color: #555; margin-top: 5px;">Estudos em arquitetura de software, integração de sistemas e boas práticas de programação.</p>
+                        </div>
+                        <div>
+                            <h3 style="color: #333;">Curso React & Node</h3>
+                            <p style="color: #667eea;">Plataforma Online | 2024 - 2025</p>
+                            <p style="color: #555; margin-top: 5px;">Desenvolvimento de aplicações completas com React e Node.js.</p>
+                        </div>
+                    </div>
+
+                    <div style="background: white; border-radius: 20px; padding: 35px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+                        <h2 style="color: #333; margin-bottom: 20px; font-size: 1.5rem;"><i class="fas fa-briefcase" style="color: #667eea; margin-right: 10px;"></i> Experiência Profissional</h2>
+                        <div style="margin-bottom: 25px;">
+                            <h3 style="color: #333;">Desenvolvedora Back-end</h3>
+                            <p style="color: #667eea; font-weight: 500;">2024 - Presente</p>
+                            <ul style="margin-left: 20px; color: #555; margin-top: 8px;">
+                                <li>Desenvolvimento de APIs REST com Node.js e Express</li>
+                                <li>Integração com banco de dados MySQL</li>
+                                <li>Criação de rotas, validação de dados e boas práticas</li>
+                            </ul>
+                        </div>
+                        <div style="margin-bottom: 25px;">
+                            <h3 style="color: #333;">Desenvolvedora Back-end Júnior</h3>
+                            <p style="color: #667eea; font-weight: 500;">2023 - 2024</p>
+                            <ul style="margin-left: 20px; color: #555; margin-top: 8px;">
+                                <li>Criação e manutenção de bancos de dados</li>
+                                <li>Desenvolvimento de funcionalidades back-end</li>
+                                <li>Suporte na construção de sistemas web</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 style="color: #333;">Estagiária em Desenvolvimento</h3>
+                            <p style="color: #667eea; font-weight: 500;">2022 - 2023</p>
+                            <ul style="margin-left: 20px; color: #555; margin-top: 8px;">
+                                <li>Apoio no desenvolvimento de sistemas</li>
+                                <li>Correção de bugs e testes básicos</li>
+                                <li>Participação em projetos internos</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="background: white; border-radius: 20px; padding: 35px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+                        <h2 style="color: #333; margin-bottom: 20px; font-size: 1.5rem;"><i class="fas fa-folder-open" style="color: #667eea; margin-right: 10px;"></i> Projetos em Destaque</h2>
+                        <div style="margin-bottom: 25px;">
+                            <h3 style="color: #333;">API de Gestão de Tarefas</h3>
+                            <p style="color: #555;">API RESTful desenvolvida com Node.js e Express para gerenciamento de tarefas, com integração a banco de dados.</p>
+                        </div>
+                        <div style="margin-bottom: 25px;">
+                            <h3 style="color: #333;">Sistema de Cadastro de Usuários</h3>
+                            <p style="color: #555;">Sistema com autenticação, validação de dados e armazenamento em banco de dados MySQL.</p>
+                        </div>
+                        <div>
+                            <h3 style="color: #333;">API de Login com JWT</h3>
+                            <p style="color: #555;">Implementação de autenticação utilizando JSON Web Token, com rotas protegidas e controle de acesso.</p>
+                        </div>
+                    </div>
+
+                    <div style="background: white; border-radius: 20px; padding: 35px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+                        <h2 style="color: #333; margin-bottom: 20px; font-size: 1.5rem;"><i class="fas fa-heart" style="color: #667eea; margin-right: 10px;"></i> Interesses e Hobbies</h2>
+                        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 30px;">
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Desenvolvimento Back-end</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Aprender novas tecnologias</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Projetos pessoais de programação</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Jogos de estratégia</span>
+                            <span style="background: #f0f0f0; padding: 8px 18px; border-radius: 25px; color: #333;">Leitura sobre tecnologia</span>
+                        </div>
+                        <h2 style="color: #333; margin-bottom: 20px; font-size: 1.5rem;"><i class="fas fa-bullseye" style="color: #667eea; margin-right: 10px;"></i> Objetivo Profissional</h2>
+                        <p style="color: #444; line-height: 1.8;">Atuar como desenvolvedora back-end, contribuindo com o desenvolvimento de sistemas eficientes e seguros, além de sempre estar evoluindo tecnicamente na área de tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Dev Girls • Todos os direitos estão reservados.</p>
+            <p style="margin-top: 5px; font-size: 0.8rem;">Desenvolvido com <i class="fas fa-heart" style="color: #ff6b6b;"></i> por quem ama código.</p>
+        </div>
+    </footer>
+
+    <a href="index.html" class="botao-flutuante" title="Voltar ao início"><i class="fas fa-home"></i></a>
+
+    <script>
+        const dropdown = document.querySelector('.dropdown-vertical > a');
+        if (dropdown) dropdown.addEventListener('click', function(e) { e.preventDefault(); this.parentElement.classList.toggle('aberto'); });
+    </script>
+</body>
+</html>

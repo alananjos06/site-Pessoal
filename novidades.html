@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novidades | Dev Girls</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/menu-vertical.css">
+    <!---<link rel="stylesheet" href="css/menu-horizontal.css">-->
+</head>
+<body>
+
+    <nav class="menu-nav">
+        <div class="logo">Dev<span>Girls</span></div>
+        <button class="menu-toggle" onclick="this.parentElement.classList.toggle('aberto')">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="ativo"><i class="fas fa-home"></i> Página Inicial</a></li>
+            <li class="dropdown">
+                <a href="#"><i class="fas fa-user"></i> Sobre Nós ▼</a>
+                <ul class="submenu">
+                    <li><a href="sobre-kelly.html">Kelly (CEO)</a></li>
+                    <li><a href="sobre-giovanna.html">Giovanna (Gerente)</a></li>
+                    <li><a href="sobre-alana.html">Alana (Full Stack)</a></li>
+                    <li><a href="sobre-monique.html">Monique (Back End)</a></li>
+                </ul>
+            </li>
+            <li><a href="portfolio.html"><i class="fas fa-code"></i> Portfólio</a></li>
+            <li><a href="novidades.html"><i class="fas fa-newspaper"></i> Novidades</a></li>
+            <li><a href="contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section class="hero">
+            <h1>Últimas <span style="color: #ffd700;">Novidades</span></h1>
+            <p class="descricao">Fique por dentro das atualizações, eventos e conquistas das Dev Girls</p>
+            <div class="hero-tags">
+                <span class="hero-tag"><i class="fas fa-certificate"></i> Conquistas</span>
+                <span class="hero-tag"><i class="fas fa-calendar-alt"></i> Eventos</span>
+                <span class="hero-tag"><i class="fas fa-rocket"></i> Lançamentos</span>
+            </div>
+        </section>
+
+        <div class="container">
+
+            <div class="destaques-grid">
+                <div class="card-destaque roxo">
+                    <span class="tag tag-roxo-claro">✨ Destaque</span>
+                    <h2>Dev Girls no Evento de Tecnologia 2026</h2>
+                    <p>Participamos do maior evento de tecnologia do Brasil! Foi incrível conhecer outras desenvolvedoras e compartilhar conhecimento.</p>
+                    <span class="data"><i class="far fa-calendar-alt"></i> 15 de Março, 2026</span>
+                </div>
+
+                <div class="card-destaque branco">
+                    <span class="tag tag-roxo-escuro">🚀 Novo Projeto</span>
+                    <h2>Site da Dev Girls Lançado!</h2>
+                    <p>Nosso site oficial está no ar! Agora você pode conhecer nosso trabalho, portfólio e entrar em contato conosco.</p>
+                    <span class="data"><i class="far fa-calendar-alt"></i> 20 de Março, 2026</span>
+                </div>
+            </div>
+
+            <h2 class="section-title">Todas as <span>Novidades</span></h2>
+
+            <div class="novidades-grid">
+                <div class="novidade-card">
+                    <div class="novidade-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="novidade-info">
+                        <h3>Alana conclui MBA em Desenvolvimento Full Stack</h3>
+                        <span class="data"><i class="far fa-calendar-alt"></i> 10 de Março, 2026</span>
+                        <p class="descricao">Nossa Full Stack Developer finalizou com louvor o MBA na FIAP, se especializando em arquitetura de software e desenvolvimento em nuvem.</p>
+                        <div class="novidade-tags"><span>🏆 Conquista</span><span>📚 Educação</span></div>
+                    </div>
+                </div>
+
+                <div class="novidade-card">
+                    <div class="novidade-icon"><i class="fas fa-chalkboard-user"></i></div>
+                    <div class="novidade-info">
+                        <h3>Giovanna palestrou sobre Gestão Ágil de Projetos</h3>
+                        <span class="data"><i class="far fa-calendar-alt"></i> 5 de Março, 2026</span>
+                        <p class="descricao">Nossa Gerente de Projetos compartilhou experiências sobre metodologias ágeis e liderança de equipes no evento Women in Tech.</p>
+                        <div class="novidade-tags"><span>🎤 Palestra</span><span>🎯 Evento</span></div>
+                    </div>
+                </div>
+
+                <div class="novidade-card">
+                    <div class="novidade-icon"><i class="fas fa-rocket"></i></div>
+                    <div class="novidade-info">
+                        <h3>Dev Girls participa de Hackathon e fica entre os 3 primeiros</h3>
+                        <span class="data"><i class="far fa-calendar-alt"></i> 25 de Fevereiro, 2026</span>
+                        <p class="descricao">Nossa equipe participou do Hackathon Tech Solutions e conquistou o 2º lugar com um projeto de sustentabilidade.</p>
+                        <div class="novidade-tags"><span>🏅 Hackathon</span><span>💡 Inovação</span></div>
+                    </div>
+                </div>
+
+                <div class="novidade-card">
+                    <div class="novidade-icon"><i class="fas fa-code"></i></div>
+                    <div class="novidade-info">
+                        <h3>Monique publica artigo sobre APIs REST</h3>
+                        <span class="data"><i class="far fa-calendar-alt"></i> 18 de Fevereiro, 2026</span>
+                        <p class="descricao">Nossa Back End Developer publicou um artigo completo sobre boas práticas no desenvolvimento de APIs REST, disponível no Medium.</p>
+                        <div class="novidade-tags"><span>📝 Artigo</span><span>🔗 Publicação</span></div>
+                    </div>
+                </div>
+
+                <div class="novidade-card">
+                    <div class="novidade-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="novidade-info">
+                        <h3>Kelly recebe prêmio de Líder do Ano!</h3>
+                        <span class="data"><i class="far fa-calendar-alt"></i> 10 de Fevereiro, 2026</span>
+                        <p class="descricao">Nossa CEO foi reconhecida em uma premiação de tecnologia como Líder do Ano pela sua atuação e incentivo à diversidade na empresa.</p>
+                        <div class="novidade-tags"><span>🏆 Prêmio</span><span>🌟 Reconhecimento</span></div>
+                    </div>
+                </div>
+
+                <div class="novidade-card">
+                    <div class="novidade-icon"><i class="fas fa-handshake"></i></div>
+                    <div class="novidade-info">
+                        <h3>Dev Girls fecha parceria com startup de tecnologia</h3>
+                        <span class="data"><i class="far fa-calendar-alt"></i> 5 de Fevereiro, 2026</span>
+                        <p class="descricao">Nova parceria para desenvolvimento de projetos inovadores e mentoria para mulheres que desejam ingressar na área de tecnologia.</p>
+                        <div class="novidade-tags"><span>🤝 Parceria</span><span>🚀 Novidades</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2>Quer ficar por dentro das <span>novidades?</span></h2>
+                <p>Assine nossa newsletter e receba as atualizações diretamente no seu e-mail!</p>
+                <a href="contato.html" class="btn-contato">Inscreva-se</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Dev Girls • Todos os direitos estão reservados.</p>
+            <p style="margin-top: 5px; font-size: 0.8rem;">Desenvolvido com <i class="fas fa-heart" style="color: #ff6b6b;"></i> por quem ama código.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.dropdown > a').addEventListener('click', function(e) { 
+        e.preventDefault(); this.parentElement.classList.toggle('aberto'); });
+    </script>
+</body>
+</html>
